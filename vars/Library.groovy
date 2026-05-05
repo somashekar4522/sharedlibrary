@@ -1,6 +1,6 @@
-def download(git)
+def download(repo)
 {
-   https://github.com/somashekar4522/${git}.git
+  git "https://github.com/somashekar4522/${repo}.git"
 }
 def build()
 {
